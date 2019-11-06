@@ -8,7 +8,6 @@ import androidx.lifecycle.ViewModelProvider
  *Copyright (c) 2019    All rights reserved.
  */
 
-// *Copyright (c) 2019  Itex Integrated Services  All rights reserved.
 
 
 class  RequestFactory(private val dBandNetwork: DBandNetwork) : ViewModelProvider.Factory{
