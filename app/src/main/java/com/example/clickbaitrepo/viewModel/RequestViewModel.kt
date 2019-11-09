@@ -11,7 +11,10 @@ import com.example.clickbaitrepo.repostory.TitleRepository
 
 
 //class RequestViewModel(var dBandNetwork: DBandNetwork) :ViewModel(){
-class RequestViewModel(private val repository: TitleRepository) :ViewModel(){
+class RequestViewModel(repository: TitleRepository) :ViewModel(){
+
+
+    val repository=RequestFactory(repository)
 
 
 
